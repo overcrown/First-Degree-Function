@@ -141,7 +141,6 @@ def drawStraight(listX, window, angularCoefficient):
             window.blit(text, textPosition) # This function will write the variable text on display
             pygame.display.update() # Update the display
     except:
-        # Call a function with pdb to resolve the problem
         pass
     finally:
         pass
